@@ -72,7 +72,7 @@
     
     // return ipstr;
 // }
-//test 7
+//test 8
 
 
 void HexStrToByte(const char* source, unsigned char* dest, int sourceLen)
