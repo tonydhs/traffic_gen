@@ -76,10 +76,11 @@
 
 
 void HexStrToByte(const char* source, unsigned char* dest, int sourceLen)
-{
+{ 
+
     short i;
     unsigned char highByte, lowByte;
-    
+    printf("test");
     for (i = 0; i < sourceLen; i += 2)
     {
         highByte = toupper(source[i]);
